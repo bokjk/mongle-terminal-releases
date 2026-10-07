@@ -12,7 +12,7 @@
 
 **[Windows 다운로드](https://github.com/bokjk/mongle-terminal-releases/releases/latest)**
 
-[빠른 시작](#시작은-터미널-하나부터) · [변경 이력](https://github.com/bokjk/mongle-terminal-releases/releases)
+[빠른 시작](#시작은-터미널-하나부터) · [변경 이력](https://github.com/bokjk/mongle-terminal-releases/releases) · [소스·문제 보고·기여](https://github.com/bokjk/mongle-terminal)
 
 </div>
 
@@ -161,4 +161,4 @@ PowerShell·명령 프롬프트와 설치된 Git Bash·WSL을 사용합니다. C
 
 ---
 
-이 저장소에는 배포 파일과 사용자 안내만 게시합니다. 소스 저장소는 비공개이며 프로젝트 자체의 오픈소스 라이선스는 아직 정하지 않았습니다. 제3자 구성요소의 라이선스는 배포본에 동봉합니다.
+이 저장소에는 배포 파일과 사용자 안내를 게시하며 기존 자동 업데이트 주소를 유지합니다. [소스 저장소](https://github.com/bokjk/mongle-terminal)는 공개되어 있고, 문제 보고·기여는 그곳에서 받습니다. 프로젝트 자체의 오픈소스 라이선스는 아직 정하지 않았으며 제3자 구성요소의 라이선스는 배포본에 동봉합니다. 보안 취약점은 소스 저장소의 비공개 제보 기능을 사용하세요.
