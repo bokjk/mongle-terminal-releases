@@ -26,7 +26,7 @@
 
 **0.3.21에서는 PC 앞에 없을 때 휴대폰으로 알려 드립니다.** 휴대폰에서 PC 주소로 연 몽글터미널의 **설정 → 원격 연결 → 이 기기로 알림 받기**를 켜면, PC가 잠겨 있거나 5분 넘게 입력이 없을 때 Claude·Codex가 확인이나 답을 기다리거나 새 기기가 연결을 요청하면 알림이 옵니다. 어느 기기에서든 그 PC의 몽글터미널 화면을 보고 있으면 보내지 않고, 알림에는 컴퓨터·그룹·터미널 이름만 담습니다. PC를 업데이트한 뒤 휴대폰 화면을 한 번 새로 고치고 PC마다 켭니다. [알림 사용법](https://github.com/bokjk/mongle-terminal/blob/dev/docs/USER-GUIDE.md#휴대폰-알림--0321).
 
-PowerShell에서 `codex`로 시작한 Codex도 Claude처럼 작업 중·확인 요청·응답 완료를 표시합니다. Codex CLI 0.162.0 이상이 필요하며, 업데이트 뒤 Codex에서 `/hooks`를 열어 새 몽글터미널 훅을 신뢰해야 합니다. PC 앱의 **컴퓨터 추가** 창에는 같은 Tailscale에서 찾은 몽글 PC가 나와 **추가**만 누르면 됩니다. 업데이트를 늦게 설치해도 이전 버전을 거치지 않고 한 번에 최신 버전으로 올라갑니다. [Codex 작업 상태](https://github.com/bokjk/mongle-terminal/blob/dev/docs/USER-GUIDE.md#codex-작업-상태--0321).
+PowerShell에서 `codex`로 시작한 Codex도 Claude처럼 작업 중·확인 요청·응답 완료를 표시합니다. Codex CLI 0.162.0 이상이 필요합니다. 업데이트 뒤 Codex를 처음 켜면 영어로 `Hooks need review` 창이 뜹니다. 몽글터미널이 추가한 훅이므로 `2. Trust all and continue`를 고르면 됩니다. 다른 프로그램의 훅도 쓰고 있다면 `1. Review hooks`에서 하나씩 확인하세요. 창을 건너뛰었다면 Codex에서 `/hooks`를 열어 몽글터미널 훅을 신뢰합니다. PC 앱의 **컴퓨터 추가** 창에는 같은 Tailscale에서 찾은 몽글 PC가 나와 **추가**만 누르면 됩니다. 업데이트를 늦게 설치해도 이전 버전을 거치지 않고 한 번에 최신 버전으로 올라갑니다. [Codex 작업 상태](https://github.com/bokjk/mongle-terminal/blob/dev/docs/USER-GUIDE.md#codex-작업-상태--0321).
 
 **0.3.20에서는 휴대폰 브라우저에서도 다른 컴퓨터로 바로 전환할 수 있습니다.** 메뉴 맨 위의 컴퓨터 이름을 누르면 **컴퓨터 전환** 창이 열리고, 같은 Tailscale 계정으로 켜져 있으며 몽글터미널 원격 접속이 켜진 다른 Windows PC를 찾아 보여 줍니다. PC를 누르면 그 PC 주소로 이동하며, 그 PC에서 이미 승인받은 브라우저라면 바로 터미널이 열립니다. 목록에 나오지 않는 PC는 **주소로 추가**에서 이름과 주소를 넣어 둘 수 있습니다. 어느 PC에서든 서로 오가려면 두 PC 모두 0.3.20 이상이어야 합니다. [전환 방법](https://github.com/bokjk/mongle-terminal/blob/dev/docs/USER-GUIDE.md#휴대폰에서-다른-컴퓨터로-전환하기).
 
